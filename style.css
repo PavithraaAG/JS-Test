@@ -1,0 +1,17 @@
+.gallery-image:hover {
+    opacity: 0.7;
+}
+
+/* body{
+    background-color: black;
+} */
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease; 
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
